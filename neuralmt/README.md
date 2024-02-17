@@ -6,10 +6,17 @@
 attention to be equal, and the context vector takes simply the average of all
 encoder states.
 
-Before you can run the default solution, make sure you either download the
-pre-trained models from 
+Before you can run the default solution, make sure you have
+and you have downloaded the trained pipelines for German and English
+```
+python3 -m spacy download de_core_news_sm
+python3 -m spacy download en_core_web_sm
+```
+
+and downloaded the pre-trained models from 
 
     https://drive.google.com/drive/folders/1Gct8Jbb7bPLl9EhI5p1YvD2Bs5wzLxvJ?usp=sharing
+
 
 Once you've done that, create a symbolic link to all files in that zip file
 from `data/` using something like this (you don't need to unzip on CSIL

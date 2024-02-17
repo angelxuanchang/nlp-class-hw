@@ -9,8 +9,6 @@ torchtext>=0.9
 Pillow>=5.0.0
 seaborn>=0.8.1
 tensorboardX>=1.1
-spacy
+spacy==3.7.4
 pandas
 sacrebleu
-de_core_news_sm
-en_core_web_sm
