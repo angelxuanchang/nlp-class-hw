@@ -15,8 +15,7 @@ python3 -m spacy download en_core_web_sm
 
 and downloaded the pre-trained models from 
 
-    https://drive.google.com/drive/folders/1Gct8Jbb7bPLl9EhI5p1YvD2Bs5wzLxvJ?usp=sharing
-
+    https://drive.google.com/drive/folders/1d-cyNMrHcrxwb60EKDw8TR0_NPsWhe3l?usp=sharing
 
 Once you've done that, create a symbolic link to all files in that zip file
 from `data/` using something like this (you don't need to unzip on CSIL
